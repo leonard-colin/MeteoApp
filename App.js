@@ -58,6 +58,7 @@ export default function App() {
       <ScrollView
         style={styles.scroll}
         horizontal={false}
+        showsVerticalScrollIndicator={false}
         
       >
         <CurretWeather data={data} />
